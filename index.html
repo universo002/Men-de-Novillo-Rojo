@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Novillo Rojo</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="shortcut icon" href="public/fueguito.png" type="image/x-icon">
+  <link rel="preload" as="image" href="public/fondohero.jpg" type="image/jpg">
+
+</head>
+<body>
+  <header>
+    <!--! Botón hamburguesa -->
+    <div class="menu-toggle" id="menu-toggle">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+
+    <!--! Menú lateral -->
+    <nav class="side-menu" id="side-menu">
+        <ul>
+          <li><a href="#Inicio">Inicio</a></li>
+            <li><a href="#Combos">Combos Para 2</a></li>
+            <li><a href="#Papas">Nuestras Papas</a></li>
+            <li><a href="#Pan">Nuestro Pan</a></li>
+            <li><a href="#Bebidas">Bebidas</a></li>
+            <li><a href="#Pedido">Hacer Pedido</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+  <!-- !HERO! -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1 id="Inicio">
+  NOVILLO <span class="brand-name">ROJ<img src="public/fueguito.png" alt="Fuego" class="logo-fire" /></span>
+</h1>
+      <div class="badges">
+  <span>🥩 100% Carne de Novillo</span>
+  <span>🍟 Papas artesanales</span>
+  <span>🔥 Pan casero de campo</span>
+</div>
+      <p>La hamburguesa casera que te merecés</p>
+      <div class="hero-delivery">
+      📦 ¡Delivery sin cargo en <strong>Villa Urquiza</strong> y alrededores! 🚚
+    </div>
+      <a href="#menu" class="cta-button">Ver el Menú 👇</a>
+    </div>
+  </section>
+  <!-- !WHATSAPP FLOTANTE -->
+ <a href="https://wa.me/541141444307" class="whatsapp-float" target="_blank">
+  <img src="public/icono.png" alt="WhatsApp" />
+</a>
+
+  <!-- !HAMBURGESAS -->
+  <div class="menu-container Hamburguesas" id="menu">
+
+    <div class="card">
+      <div class="carousel">
+  <img src="public/clasica1.jpg" alt="Imagen 1" class="active">
+  <img src="public/clasica2.jpeg" alt="Imagen 2">
+  <button class="prev">&#10094;</button>
+  <button class="next">&#10095;</button>
+</div>
+      <h2>Novillo Original</h2>
+      <p class="description genial">
+       125g de carne de novillo de campo, dorada al punto justo, con queso cheddar cremoso, tomate fresco recién cortado y lechuga crocante. Todo dentro de nuestro pan artesanal de papa dorado. Una combinación honesta y perfecta.
+      </p>
+      <div class="options simple-doble">
+        <div class="option">Simple
+         <button class="btn-agregar" data-producto="Novillo Original Simple con papas">$15.999</button>
+        </div>
+        <div class="option">Doble
+        <button class="btn-agregar" data-producto="Novillo Original Doble con papas">$15.999</button>
+        </div>
+      </div>
+      
+      <div class="incluye">INCLUYE PORCIÓN DE PAPAS 🍟</div>
+    </div>
+
+    <div class="card">
+       <div class="carousel">
+  <img src="public/ahumada1.jpg" alt="Imagen 1" class="active">
+  <img src="public/ahumada2.jpeg" alt="Imagen 2">
+  
+  <button class="prev">&#10094;</button>
+  <button class="next">&#10095;</button>
+</div>
+      <h2>La Ahumada Del Campo</h2>
+      <p class="description genial">
+       Medallón de 125g de carne 100% novillo de campo, con panceta ahumada crocante, queso cheddar fundido, cebolla crispy dorada y una generosa capa de barbacoa ahumada, todo dentro de nuestro pan artesanal dorado a la plancha.
+      </p>
+      <div class="options">
+        <div class="option">Simple
+         <button class="btn-agregar" data-producto="La Ahumada Del Campo Simple con papas">$15.999</button>
+        </div>
+        <div class="option">Doble
+        <button class="btn-agregar" data-producto="La Ahumada Del Campo Doble con papas">$15.999</button>
+        </div>
+       
+      </div>
+      <div class="incluye">INCLUYE PORCIÓN DE PAPAS 🍟</div>
+    </div>
+
+    <div class="card">
+       <div class="carousel">
+  <img src="public/provoleta.jpeg" alt="Imagen 1" class="active">
+  <img src="public/provoleta1.jpeg" alt="Imagen 2">
+  
+  <button class="prev">&#10094;</button>
+  <button class="next">&#10095;</button>
+</div>
+      <h2>El Rancho</h2>
+      <p class="description genial">
+       Medallón de 125g de carne de novillo de campo, coronado con queso provoleta fundido, huevo frito al punto, cebolla caramelizada y nuestra exclusiva mayonesa casera de perejil, ajo y limón. Todo dentro de un pan artesanal de papa dorado al momento.
+      </p>
+      <div class="options">
+        <div class="option">Simple
+          <button class="btn-agregar" data-producto="El Rancho Simple con papas">$15.999</button>
+        </div>
+        <div class="option">Doble
+         <button class="btn-agregar" data-producto="El Rancho Doble con papas">$15.999</button>
+        </div>
+        
+      </div>
+      <div class="incluye">INCLUYE PORCIÓN DE PAPAS 🍟</div>
+    </div>
+
+  </div>
+  <!-- !COMBO PARA 2 -->
+ <section  id="Combos" class="combos-para-dos">
+  <h2 >¡Combos Para 2!</h2>
+  
+  <div class="combo-card">
+    <img src="public/clasica1.jpg" alt="2 Combos Clásica de Campo">
+    <h3>2 Combos Novillo Original</h3>
+    <p>2 Hamburguesas Clásicas de Campo + 2 porciones de papas fritas + 2 bebidas a elección de 500ml</p>
+   <button class="btn-agregar" data-producto="2 Hamburguesas Clásicas de Campo + 2 porciones de papas fritas + 2 bebidas a elección de 500ml">$15.999</button>
+  </div>
+
+  <div class="combo-card">
+    <img src="public/ahumada1.jpg" alt="2 Combos Bacon & BBQ">
+    <h3>2 Combos La Ahumada Del Campo</h3>
+    <p>2 Hamburguesas Bacon & BBQ + 2 porciones de papas fritas + 2 bebidas a elección de 500ml</p>
+    <button class="btn-agregar" data-producto="2 Hamburguesas Bacon & BBQ + 2 porciones de papas fritas + 2 bebidas a elección de 500ml">$15.999</button>
+  </div>
+</section>
+  <!-- !PAPAS -->
+  <section class="papas-section papas">
+  <div class="papas-content">
+    
+    <div class="papas-text">
+      <h2 id="Papas">¡Nuestras Papas!</h2>
+      <p>Doradas, crocantes y sabrosas. 180g de papas seleccionadas hechas al momento, fritas en grasa como se hacía antes, y condimentadas con nuestra mezcla de especias. 100% caseras.</p>
+    </div>
+    <div class="papas-image">
+      <img src="public/papas.jpg" alt="Papas fritas caseras">
+    </div>
+  </div>
+</section>
+<!-- !PAN -->
+<section   class="papas-section ">
+  <div class="papas-content">
+    
+    <div class="papas-text">
+      <h2 id="Pan">¡Nuestro Pan!</h2>
+      <p>Pan Artesanal de Papa
+Suave, esponjoso y casero. Hecho en el día con receta propia, a base de papa natural, y coronado con semillas tostadas. El complemento perfecto para cada hamburguesa.</p>
+    </div>
+    <div class="papas-image">
+      <img src="public/pan2.jpeg" alt="Papas fritas caseras">
+    </div>
+  </div>
+</section>
+<!-- !BEBIDAS -->
+<section id="bebidas" class="papas-text papas-section">
+  <h2 id="Bebidas">¡Bebidas!</h2>
+  <p>Acompañá tu hamburguesa con nuestras bebidas de 500ml</p>
+
+  <div class="carousel-bebidas">
+    <div class="slide active">
+      <img src="public/cocacola.png" alt="Coca Cola 500ml">
+
+      <button class="btn-agregar" data-producto="Coca Cola 500ml">$3.000</button>
+    </div>
+    <div class="slide">
+      <img src="public/sprite.png" alt="Sprite 500ml">
+      <button class="btn-agregar" data-producto="Sprite 500ml">$3.000</button>
+
+    </div>
+
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+</section>
+</main>
+<!-- !FORMULARIO -->
+<section id="formulario-pedido" class="papas-section">
+  <h2 id="Pedido">Finalizá tu Pedido</h2>
+  <form id="pedidoForm">
+    <input type="text" id="nombre" placeholder="Tu Nombre" required>
+    <input type="text" id="ubicacion" placeholder="Ubicación (Calle, altura)" required>
+    <textarea id="observaciones" placeholder="Observaciones (sin cebolla, dejar en portería, etc)"></textarea>
+    <div id="pedidoDetalle"></div>
+    <button type="button" onclick="enviarPedido()">Enviar Pedido por WhatsApp 🚀</button>
+  </form>
+</section>
+<!-- !FOOTER -->
+
+<footer class="footer">
+  <div class="container footer__container">
+    <div class="footer__about-contact">
+      <h3>Novillo Rojo</h3>
+      <p>Hamburguesas caseras 100% novillo, sabor auténtico de campo.</p>
+      <p>Tel: +54 11 4144 4307</p>
+      <p>Villa Urquiza, CABA</p>
+      <div class="footer__socials">
+        <a href="https://facebook.com/novillorojo" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><img src="public/tiktok.png" alt="Logo de tiktok"></a>
+        <a href="https://instagram.com/novillorojo" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><img src="public/instagram.png" alt="Logo de instagram"></a>
+      </div>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <small>© 2025 Novillo Rojo. Todos los derechos reservados.</small>
+  </div>
+</footer>
+ 
+
+<!-- !JS -->
+  <script src="script.js"></script>
+</body>
+</html>
